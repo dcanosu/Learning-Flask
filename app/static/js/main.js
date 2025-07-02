@@ -1,0 +1,1 @@
+console.log("Hello world from flask using js")
