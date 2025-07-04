@@ -3,5 +3,18 @@
 {% block title %} Home {% endblock %}
 
 {% block content %}
-<h1>Home page</h1>
+<div class="container-sm text-center">
+    <h1 class="display-3">Welcome to Our Task List</h1>
+
+    <p class="lead">Here you can keep track of your task and get an overview of your responsibilities</p>
+
+    <hr class="mv-4">
+
+    <p>Already have an account?</p>
+
+    <div class="d-flex justify-content-center">
+    <a href="{{url_for('auth.login')}}" class="btn btn-primary mx-2">Login</a>
+    <a href="{{url_for('auth.register')}}" class="btn btn-secondary mx-2">Sign Up</a>
+    </div>
+</div>
 {% endblock %}
