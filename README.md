@@ -7,3 +7,6 @@
 ![Issues](https://img.shields.io/github/issues/dcanosu/Learning-Flask)
 ![Virtual Env](https://img.shields.io/badge/virtualenv-enabled-brightgreen)
 [![Requirements](https://img.shields.io/badge/requirements-txt-yellow)](./requirements.txt)
+
+# Repo:
+https://github.com/alexroel/curso-flask-udemy
